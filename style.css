@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.rolloverGallery {
+    display: grid;
+}
+
+.rolloverGallery__bigPicture {
+    justify-self: center;
+    width: 50%;
+    height: auto;
+}
+
+.rolloverGallery__smallPictures {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+
+    padding: .5rem;
+}
+
+.rolloverGallery__smallPictures img {
+    width: 5%;
+    height: auto;
+}
