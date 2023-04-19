@@ -27,4 +27,5 @@
 .rolloverGallery__smallPictures img {
     width: max(2rem, 15%);
     height: auto;
+    border-radius: 5%;
 }
