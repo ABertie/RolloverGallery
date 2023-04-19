@@ -4,11 +4,12 @@
 
 .rolloverGallery {
     display: grid;
+    max-height: 100vh;
 }
 
 .rolloverGallery__bigPicture {
     justify-self: center;
-    width: 50%;
+    width: min(max(50rem, 70%), 100%);
     height: auto;
 }
 
@@ -16,11 +17,14 @@
     display: flex;
     justify-content: center;
     gap: .5rem;
-
+    flex-wrap: wrap;
+    
+    width: min(50rem, 100%);
     padding: .5rem;
+    margin: auto;
 }
 
 .rolloverGallery__smallPictures img {
-    width: 5%;
+    width: max(2rem, 15%);
     height: auto;
 }
