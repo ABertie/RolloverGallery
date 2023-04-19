@@ -4,7 +4,6 @@ const SMALLPICTURES = document.querySelector(".rolloverGallery__smallPictures");
 const ALLPICTURES = ['img/pexels-david-bartus-1166209.jpg', 'img/pexels-francesco-ungaro-2325446.jpg', 'img/pexels-ian-beckley-2440021.jpg', 'img/pexels-jaime-reimer-2662116.jpg', 'img/pexels-tyler-lastovich-808465.jpg'];
 
 var index = 0;
-
 BIGPICTURE.src = ALLPICTURES[index];
 
 ALLPICTURES.forEach(function (element) {
