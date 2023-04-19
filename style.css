@@ -4,7 +4,7 @@
 
 .rolloverGallery {
     display: grid;
-    max-height: 100vh;
+    max-height: 100svh;
 }
 
 .rolloverGallery__bigPicture {
