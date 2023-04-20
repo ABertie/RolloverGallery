@@ -25,4 +25,4 @@ const ABertieRolloverGallery = (function () {
             });
         });
     } return { init }
-})()
+})();
