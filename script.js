@@ -19,4 +19,8 @@ PICTURE.forEach(function (picture, i) {
         index = i;
         BIGPICTURE.src = ALLPICTURES[index];
     });
+    picture.addEventListener("click", function () {
+        index = i;
+        BIGPICTURE.src = ALLPICTURES[index];
+    });
 });  
